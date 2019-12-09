@@ -503,6 +503,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
+#about .about-img div{
+  display: flex;
+  justify-content: space-between;
+}
+
+#about .about-img div img{
+  width: 48%;
+}
+
 #about .about-img img {
   max-width: 100%;
 }
@@ -544,6 +553,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/services-bg.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
+}
+
+#services .events h3{
+  color: #111;
+  padding: 20px 0;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
 }
 
 #services .service-item {
@@ -755,6 +773,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .quote b ol li{
   color: #fff;
+}
+
+#testimonials .quote b h3{
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 #testimonials .quote small {
